@@ -1,6 +1,6 @@
 let data = [
   {
-    _id: 1,
+    //_id: 1,
     name: "Almond",
     img: "/images/food/almond.jpg",
     price: 10,
@@ -15,7 +15,7 @@ let data = [
     discount:10
   },
   {
-    _id: 2,
+    //_id: 2,
     name: "Bracoli",
     img: "/images/food/brokly.jpg",
     price: 20,
@@ -30,7 +30,7 @@ let data = [
     discount:20,
   },
   {
-    _id: 3,
+    //_id: 3,
     name: "Chips",
     img: "/images/food/chips.jpg",
     price: 30,
@@ -45,7 +45,7 @@ let data = [
     discount:30,
   },
   {
-    _id: 4,
+    //_id: 4,
     name: "Franz Fri",
     img: "/images/food/fri.jpg",
     price: 40,
@@ -60,7 +60,7 @@ let data = [
     discount:40,
   },
   {
-    _id: 5,
+    //_id: 5,
     name: "Family Pack",
     img: "/images/food/familypack.jpg",
     price: 150,
@@ -75,7 +75,7 @@ let data = [
     discount:50,
   },
   {
-    _id: 6,
+    //_id: 6,
     name: "Fruits",
     img: "/images/food/fruits.jpg",
     price: 120,
@@ -90,7 +90,7 @@ let data = [
     discount:20,
   },
   {
-    _id: 7,
+    //_id: 7,
     name: "Masterd Oil",
     img: "/images/food/masterdoil.jpg",
     price: 150,
@@ -105,7 +105,7 @@ let data = [
     discount:30,
   },
   {
-    _id: 8,
+    //_id: 8,
     name: "Milk",
     img: "/images/food/milk.png",
     price: 85,
@@ -120,7 +120,7 @@ let data = [
     discount:40,
   },
   {
-    _id: 9,
+    //_id: 9,
     name: "Berger",
     img: "/images/food/berger.jpg",
     price: 85,
@@ -135,7 +135,7 @@ let data = [
     discount:50,
   },
   {
-    _id: 10,
+    //_id: 10,
     name: "Blackgrap",
     img: "/images/food/blackgrap.jpg",
     price: 85,
@@ -150,7 +150,7 @@ let data = [
     discount:60,
   },
   {
-    _id: 11,
+    //_id: 11,
     name: "chiken",
     img: "/images/food/chiken.jpg",
     price: 85,
@@ -165,7 +165,7 @@ let data = [
     discount:70,
   },
   {
-    _id: 12,
+    //_id: 12,
     name: "carrot",
     img: "/images/food/carrot.jpg",
     price: 85,
@@ -180,7 +180,7 @@ let data = [
     discount:80,
   },
   {
-    _id: 13,
+    //_id: 13,
     name: "Doubleberger",
     img: "/images/food/doubleberger.jpg",
     price: 85,
@@ -193,7 +193,7 @@ let data = [
     category:'snacks',
   },
   {
-    _id: 14,
+    //_id: 14,
     name: "Nigella",
     img: "/images/food/Nigella.jpg",
     price: 85,
@@ -206,7 +206,7 @@ let data = [
     category:'oils',
   },
   {
-    _id: 15,
+    //_id: 15,
     name: "Senduce",
     img: "/images/food/senduce.jpg",
     price: 85,

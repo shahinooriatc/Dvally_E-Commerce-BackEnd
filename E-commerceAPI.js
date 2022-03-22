@@ -1,6 +1,6 @@
 let data = [
     {
-        "_id": 1,
+        //_id:: 1,
         "name": "bhundal0",
         "img": "https://robohash.org/recusandaeestconsequatur.png?size=200x200&set=set1",
         "price": 96,
@@ -16,7 +16,7 @@ let data = [
         "discountlimit": 22
     },
     {
-        "_id": 2,
+        //_id:: 2,
         "name": "adaldan1",
         "img": "https://robohash.org/rationeeiuseos.png?size=200x200&set=set1",
         "price": 97,
@@ -32,7 +32,7 @@ let data = [
         "discountlimit": 25
     },
     {
-        "_id": 3,
+        //_id:: 3,
         "name": "ebraunstein2",
         "img": "https://robohash.org/nesciuntomniscommodi.png?size=200x200&set=set1",
         "price": 37,
@@ -48,7 +48,7 @@ let data = [
         "discountlimit": 23
     },
     {
-        "_id": 4,
+        //_id:: 4,
         "name": "swoofinden3",
         "img": "https://robohash.org/possimuserrorest.png?size=200x200&set=set1",
         "price": 12,
@@ -64,7 +64,7 @@ let data = [
         "discountlimit": 39
     },
     {
-        "_id": 5,
+        //_id:: 5,
         "name": "bsawdon4",
         "img": "https://robohash.org/cumullamdolores.png?size=200x200&set=set1",
         "price": 47,
@@ -80,7 +80,7 @@ let data = [
         "discountlimit": 42
     },
     {
-        "_id": 6,
+        //_id:: 6,
         "name": "okhomishin5",
         "img": "https://robohash.org/consecteturquiqui.png?size=200x200&set=set1",
         "price": 27,
@@ -96,7 +96,7 @@ let data = [
         "discountlimit": 14
     },
     {
-        "_id": 7,
+        //_id:: 7,
         "name": "kwesthoff6",
         "img": "https://robohash.org/aspernaturquasieligendi.png?size=200x200&set=set1",
         "price": 74,
@@ -112,7 +112,7 @@ let data = [
         "discountlimit": 28
     },
     {
-        "_id": 8,
+        //_id:: 8,
         "name": "sdelph7",
         "img": "https://robohash.org/totamarchitectolabore.png?size=200x200&set=set1",
         "price": 26,
@@ -128,7 +128,7 @@ let data = [
         "discountlimit": 45
     },
     {
-        "_id": 9,
+        //_id:: 9,
         "name": "wmcconaghy8",
         "img": "https://robohash.org/ipsamsitautem.png?size=200x200&set=set1",
         "price": 64,
@@ -144,7 +144,7 @@ let data = [
         "discountlimit": 25
     },
     {
-        "_id": 10,
+        //_id:: 10,
         "name": "wchrishop9",
         "img": "https://robohash.org/quiinitaque.png?size=200x200&set=set1",
         "price": 34,
@@ -160,7 +160,7 @@ let data = [
         "discountlimit": 23
     },
     {
-        "_id": 11,
+        //_id:: 11,
         "name": "lfurssea",
         "img": "https://robohash.org/suscipitminusfacere.png?size=200x200&set=set1",
         "price": 86,
@@ -176,7 +176,7 @@ let data = [
         "discountlimit": 28
     },
     {
-        "_id": 12,
+        //_id:: 12,
         "name": "rateggartb",
         "img": "https://robohash.org/estrerumplaceat.png?size=200x200&set=set1",
         "price": 86,
@@ -192,7 +192,7 @@ let data = [
         "discountlimit": 37
     },
     {
-        "_id": 13,
+        //_id:: 13,
         "name": "kgentiryc",
         "img": "https://robohash.org/natushiclaboriosam.png?size=200x200&set=set1",
         "price": 100,
@@ -208,7 +208,7 @@ let data = [
         "discountlimit": 30
     },
     {
-        "_id": 14,
+        //_id:: 14,
         "name": "thartzenbergd",
         "img": "https://robohash.org/exnecessitatibussed.png?size=200x200&set=set1",
         "price": 27,
@@ -224,7 +224,7 @@ let data = [
         "discountlimit": 14
     },
     {
-        "_id": 15,
+        //_id:: 15,
         "name": "xreilingene",
         "img": "https://robohash.org/solutaillumexpedita.png?size=200x200&set=set1",
         "price": 98,
@@ -240,7 +240,7 @@ let data = [
         "discountlimit": 39
     },
     {
-        "_id": 16,
+        //_id:: 16,
         "name": "lkinclaf",
         "img": "https://robohash.org/illodoloremqui.png?size=200x200&set=set1",
         "price": 44,
@@ -256,7 +256,7 @@ let data = [
         "discountlimit": 28
     },
     {
-        "_id": 17,
+        //_id:: 17,
         "name": "cschwiesog",
         "img": "https://robohash.org/aututest.png?size=200x200&set=set1",
         "price": 22,
@@ -272,7 +272,7 @@ let data = [
         "discountlimit": 47
     },
     {
-        "_id": 18,
+        //_id:: 18,
         "name": "ggerardh",
         "img": "https://robohash.org/quiaprovidentin.png?size=200x200&set=set1",
         "price": 47,
@@ -288,7 +288,7 @@ let data = [
         "discountlimit": 18
     },
     {
-        "_id": 19,
+        //_id:: 19,
         "name": "tthomessoni",
         "img": "https://robohash.org/pariaturconsecteturaut.png?size=200x200&set=set1",
         "price": 96,
@@ -304,7 +304,7 @@ let data = [
         "discountlimit": 47
     },
     {
-        "_id": 20,
+        //_id:: 20,
         "name": "gericssenj",
         "img": "https://robohash.org/quodautest.png?size=200x200&set=set1",
         "price": 4,
@@ -320,7 +320,7 @@ let data = [
         "discountlimit": 16
     },
     {
-        "_id": 21,
+        //_id:: 21,
         "name": "tjorissenk",
         "img": "https://robohash.org/nihilautemtempora.png?size=200x200&set=set1",
         "price": 75,
@@ -336,7 +336,7 @@ let data = [
         "discountlimit": 27
     },
     {
-        "_id": 22,
+        //_id:: 22,
         "name": "gsyradl",
         "img": "https://robohash.org/sintsintin.png?size=200x200&set=set1",
         "price": 19,
@@ -352,7 +352,7 @@ let data = [
         "discountlimit": 17
     },
     {
-        "_id": 23,
+        //_id:: 23,
         "name": "hliccardom",
         "img": "https://robohash.org/vitaererumsimilique.png?size=200x200&set=set1",
         "price": 19,
@@ -368,7 +368,7 @@ let data = [
         "discountlimit": 35
     },
     {
-        "_id": 24,
+        //_id:: 24,
         "name": "gbennisn",
         "img": "https://robohash.org/inventorequiet.png?size=200x200&set=set1",
         "price": 46,
@@ -384,7 +384,7 @@ let data = [
         "discountlimit": 34
     },
     {
-        "_id": 25,
+        //_id:: 25,
         "name": "tstidsono",
         "img": "https://robohash.org/ametiureconsequatur.png?size=200x200&set=set1",
         "price": 65,
@@ -400,7 +400,7 @@ let data = [
         "discountlimit": 27
     },
     {
-        "_id": 26,
+        //_id:: 26,
         "name": "jsladerp",
         "img": "https://robohash.org/consequaturutdignissimos.png?size=200x200&set=set1",
         "price": 92,
@@ -416,7 +416,7 @@ let data = [
         "discountlimit": 12
     },
     {
-        "_id": 27,
+        //_id:: 27,
         "name": "rroscoeq",
         "img": "https://robohash.org/ametdoloribusqui.png?size=200x200&set=set1",
         "price": 47,
@@ -432,7 +432,7 @@ let data = [
         "discountlimit": 17
     },
     {
-        "_id": 28,
+        //_id:: 28,
         "name": "wkirkupr",
         "img": "https://robohash.org/suntenimqui.png?size=200x200&set=set1",
         "price": 40,
@@ -448,7 +448,7 @@ let data = [
         "discountlimit": 19
     },
     {
-        "_id": 29,
+        //_id:: 29,
         "name": "mstammers",
         "img": "https://robohash.org/commodiutdolorem.png?size=200x200&set=set1",
         "price": 7,
@@ -464,7 +464,7 @@ let data = [
         "discountlimit": 49
     },
     {
-        "_id": 30,
+        //_id:: 30,
         "name": "fflattt",
         "img": "https://robohash.org/omnisinaccusantium.png?size=200x200&set=set1",
         "price": 49,
@@ -480,7 +480,7 @@ let data = [
         "discountlimit": 33
     },
     {
-        "_id": 31,
+        //_id:: 31,
         "name": "lhoggettsu",
         "img": "https://robohash.org/etutconsectetur.png?size=200x200&set=set1",
         "price": 2,
@@ -496,7 +496,7 @@ let data = [
         "discountlimit": 46
     },
     {
-        "_id": 32,
+        //_id:: 32,
         "name": "jmoorev",
         "img": "https://robohash.org/beataerationenecessitatibus.png?size=200x200&set=set1",
         "price": 14,
@@ -512,7 +512,7 @@ let data = [
         "discountlimit": 30
     },
     {
-        "_id": 33,
+        //_id:: 33,
         "name": "nbezzantw",
         "img": "https://robohash.org/quiadelenitiquia.png?size=200x200&set=set1",
         "price": 24,
@@ -528,7 +528,7 @@ let data = [
         "discountlimit": 10
     },
     {
-        "_id": 34,
+        //_id:: 34,
         "name": "rjoplingx",
         "img": "https://robohash.org/inatquenecessitatibus.png?size=200x200&set=set1",
         "price": 48,
@@ -544,7 +544,7 @@ let data = [
         "discountlimit": 30
     },
     {
-        "_id": 35,
+        //_id:: 35,
         "name": "hkellowayy",
         "img": "https://robohash.org/totameaqueautem.png?size=200x200&set=set1",
         "price": 91,
@@ -560,7 +560,7 @@ let data = [
         "discountlimit": 11
     },
     {
-        "_id": 36,
+        //_id:: 36,
         "name": "estrattonz",
         "img": "https://robohash.org/autvoluptatemvoluptatibus.png?size=200x200&set=set1",
         "price": 83,
@@ -576,7 +576,7 @@ let data = [
         "discountlimit": 49
     },
     {
-        "_id": 37,
+        //_id:: 37,
         "name": "bklimp10",
         "img": "https://robohash.org/illumvoluptasmolestiae.png?size=200x200&set=set1",
         "price": 79,
@@ -592,7 +592,7 @@ let data = [
         "discountlimit": 30
     },
     {
-        "_id": 38,
+        //_id:: 38,
         "name": "mborne11",
         "img": "https://robohash.org/iureconsequaturrerum.png?size=200x200&set=set1",
         "price": 82,
@@ -608,7 +608,7 @@ let data = [
         "discountlimit": 27
     },
     {
-        "_id": 39,
+        //_id:: 39,
         "name": "rtomkins12",
         "img": "https://robohash.org/pariaturveliteum.png?size=200x200&set=set1",
         "price": 4,
@@ -624,7 +624,7 @@ let data = [
         "discountlimit": 11
     },
     {
-        "_id": 40,
+        //_id:: 40,
         "name": "rgebbe13",
         "img": "https://robohash.org/itaquequiconsequatur.png?size=200x200&set=set1",
         "price": 77,
@@ -640,7 +640,7 @@ let data = [
         "discountlimit": 32
     },
     {
-        "_id": 41,
+        //_id:: 41,
         "name": "fstoodley14",
         "img": "https://robohash.org/quisdoloremquesimilique.png?size=200x200&set=set1",
         "price": 88,
@@ -656,7 +656,7 @@ let data = [
         "discountlimit": 49
     },
     {
-        "_id": 42,
+        //_id:: 42,
         "name": "astorch15",
         "img": "https://robohash.org/molestiaeaspernaturaut.png?size=200x200&set=set1",
         "price": 45,
@@ -672,7 +672,7 @@ let data = [
         "discountlimit": 29
     },
     {
-        "_id": 43,
+        //_id:: 43,
         "name": "rcrutchfield16",
         "img": "https://robohash.org/utlaborequia.png?size=200x200&set=set1",
         "price": 5,
@@ -688,7 +688,7 @@ let data = [
         "discountlimit": 23
     },
     {
-        "_id": 44,
+        //_id:: 44,
         "name": "mseares17",
         "img": "https://robohash.org/velcorruptitemporibus.png?size=200x200&set=set1",
         "price": 65,
@@ -704,7 +704,7 @@ let data = [
         "discountlimit": 20
     },
     {
-        "_id": 45,
+        //_id:: 45,
         "name": "dwoodrough18",
         "img": "https://robohash.org/autnondolorum.png?size=200x200&set=set1",
         "price": 7,
@@ -720,7 +720,7 @@ let data = [
         "discountlimit": 15
     },
     {
-        "_id": 46,
+        //_id:: 46,
         "name": "rmcfall19",
         "img": "https://robohash.org/omnisisteillum.png?size=200x200&set=set1",
         "price": 12,
@@ -736,7 +736,7 @@ let data = [
         "discountlimit": 31
     },
     {
-        "_id": 47,
+        //_id:: 47,
         "name": "droycroft1a",
         "img": "https://robohash.org/aliquamvoluptatumquia.png?size=200x200&set=set1",
         "price": 33,
@@ -752,7 +752,7 @@ let data = [
         "discountlimit": 23
     },
     {
-        "_id": 48,
+        //_id:: 48,
         "name": "klammerich1b",
         "img": "https://robohash.org/laborevoluptassuscipit.png?size=200x200&set=set1",
         "price": 36,
@@ -768,7 +768,7 @@ let data = [
         "discountlimit": 47
     },
     {
-        "_id": 49,
+        //_id:: 49,
         "name": "aallwell1c",
         "img": "https://robohash.org/consecteturcumqui.png?size=200x200&set=set1",
         "price": 67,
@@ -784,7 +784,7 @@ let data = [
         "discountlimit": 39
     },
     {
-        "_id": 50,
+        //_id:: 50,
         "name": "kallchorn1d",
         "img": "https://robohash.org/consequaturetlibero.png?size=200x200&set=set1",
         "price": 16,
@@ -800,7 +800,7 @@ let data = [
         "discountlimit": 50
     },
     {
-        "_id": 51,
+        //_id:: 51,
         "name": "cgoldstraw1e",
         "img": "https://robohash.org/molestiaeveritatiscorrupti.png?size=200x200&set=set1",
         "price": 89,
@@ -816,7 +816,7 @@ let data = [
         "discountlimit": 33
     },
     {
-        "_id": 52,
+        //_id:: 52,
         "name": "sjacquemot1f",
         "img": "https://robohash.org/quiaestomnis.png?size=200x200&set=set1",
         "price": 100,
@@ -832,7 +832,7 @@ let data = [
         "discountlimit": 10
     },
     {
-        "_id": 53,
+        //_id:: 53,
         "name": "amatula1g",
         "img": "https://robohash.org/aliquampariaturcupiditate.png?size=200x200&set=set1",
         "price": 39,
@@ -848,7 +848,7 @@ let data = [
         "discountlimit": 14
     },
     {
-        "_id": 54,
+        //_id:: 54,
         "name": "fcadwaladr1h",
         "img": "https://robohash.org/dignissimospariaturut.png?size=200x200&set=set1",
         "price": 3,
@@ -864,7 +864,7 @@ let data = [
         "discountlimit": 17
     },
     {
-        "_id": 55,
+        //_id:: 55,
         "name": "bbansal1i",
         "img": "https://robohash.org/perspiciatisquivoluptatibus.png?size=200x200&set=set1",
         "price": 55,
@@ -880,7 +880,7 @@ let data = [
         "discountlimit": 12
     },
     {
-        "_id": 56,
+        //_id:: 56,
         "name": "bjerschke1j",
         "img": "https://robohash.org/veniameosvelit.png?size=200x200&set=set1",
         "price": 25,
@@ -896,7 +896,7 @@ let data = [
         "discountlimit": 42
     },
     {
-        "_id": 57,
+        //_id:: 57,
         "name": "mkeymer1k",
         "img": "https://robohash.org/minimadoloremautem.png?size=200x200&set=set1",
         "price": 71,
@@ -912,7 +912,7 @@ let data = [
         "discountlimit": 11
     },
     {
-        "_id": 58,
+        //_id:: 58,
         "name": "epalk1l",
         "img": "https://robohash.org/veritatislaboriosamet.png?size=200x200&set=set1",
         "price": 58,
@@ -928,7 +928,7 @@ let data = [
         "discountlimit": 38
     },
     {
-        "_id": 59,
+        //_id:: 59,
         "name": "dbenazet1m",
         "img": "https://robohash.org/nondolorconsequatur.png?size=200x200&set=set1",
         "price": 90,
@@ -944,7 +944,7 @@ let data = [
         "discountlimit": 36
     },
     {
-        "_id": 60,
+        //_id:: 60,
         "name": "nchampness1n",
         "img": "https://robohash.org/eumplaceatexplicabo.png?size=200x200&set=set1",
         "price": 97,
@@ -960,7 +960,7 @@ let data = [
         "discountlimit": 42
     },
     {
-        "_id": 61,
+        //_id:: 61,
         "name": "swiffield1o",
         "img": "https://robohash.org/isteperspiciatisalias.png?size=200x200&set=set1",
         "price": 29,
@@ -976,7 +976,7 @@ let data = [
         "discountlimit": 17
     },
     {
-        "_id": 62,
+        //_id:: 62,
         "name": "wdewbury1p",
         "img": "https://robohash.org/autestdolore.png?size=200x200&set=set1",
         "price": 19,
@@ -992,7 +992,7 @@ let data = [
         "discountlimit": 31
     },
     {
-        "_id": 63,
+        //_id:: 63,
         "name": "rsamms1q",
         "img": "https://robohash.org/consequaturnemosint.png?size=200x200&set=set1",
         "price": 84,
@@ -1008,7 +1008,7 @@ let data = [
         "discountlimit": 30
     },
     {
-        "_id": 64,
+        //_id:: 64,
         "name": "teirwin1r",
         "img": "https://robohash.org/voluptasautsimilique.png?size=200x200&set=set1",
         "price": 33,
@@ -1024,7 +1024,7 @@ let data = [
         "discountlimit": 36
     },
     {
-        "_id": 65,
+        //_id:: 65,
         "name": "smeneghelli1s",
         "img": "https://robohash.org/quisquamquamnatus.png?size=200x200&set=set1",
         "price": 74,
@@ -1040,7 +1040,7 @@ let data = [
         "discountlimit": 34
     },
     {
-        "_id": 66,
+        //_id:: 66,
         "name": "nniaves1t",
         "img": "https://robohash.org/numquamnonvel.png?size=200x200&set=set1",
         "price": 100,
@@ -1056,7 +1056,7 @@ let data = [
         "discountlimit": 33
     },
     {
-        "_id": 67,
+        //_id:: 67,
         "name": "ediego1u",
         "img": "https://robohash.org/optioquisex.png?size=200x200&set=set1",
         "price": 17,
@@ -1072,7 +1072,7 @@ let data = [
         "discountlimit": 41
     },
     {
-        "_id": 68,
+        //_id:: 68,
         "name": "ebeningfield1v",
         "img": "https://robohash.org/voluptatearchitectonon.png?size=200x200&set=set1",
         "price": 60,
@@ -1088,7 +1088,7 @@ let data = [
         "discountlimit": 26
     },
     {
-        "_id": 69,
+        //_id:: 69,
         "name": "aluckhurst1w",
         "img": "https://robohash.org/temporaofficiaculpa.png?size=200x200&set=set1",
         "price": 28,
@@ -1104,7 +1104,7 @@ let data = [
         "discountlimit": 24
     },
     {
-        "_id": 70,
+        //_id:: 70,
         "name": "ldallender1x",
         "img": "https://robohash.org/suntistevoluptas.png?size=200x200&set=set1",
         "price": 68,
@@ -1120,7 +1120,7 @@ let data = [
         "discountlimit": 42
     },
     {
-        "_id": 71,
+        //_id:: 71,
         "name": "tmingaud1y",
         "img": "https://robohash.org/autemconsequunturiusto.png?size=200x200&set=set1",
         "price": 82,
@@ -1136,7 +1136,7 @@ let data = [
         "discountlimit": 44
     },
     {
-        "_id": 72,
+        //_id:: 72,
         "name": "cchenery1z",
         "img": "https://robohash.org/aspernatureligendimagni.png?size=200x200&set=set1",
         "price": 72,
@@ -1152,7 +1152,7 @@ let data = [
         "discountlimit": 48
     },
     {
-        "_id": 73,
+        //_id:: 73,
         "name": "jleverett20",
         "img": "https://robohash.org/estametin.png?size=200x200&set=set1",
         "price": 90,
@@ -1168,7 +1168,7 @@ let data = [
         "discountlimit": 11
     },
     {
-        "_id": 74,
+        //_id:: 74,
         "name": "lcolleck21",
         "img": "https://robohash.org/eosoccaecatinemo.png?size=200x200&set=set1",
         "price": 94,
@@ -1184,7 +1184,7 @@ let data = [
         "discountlimit": 35
     },
     {
-        "_id": 75,
+        //_id:: 75,
         "name": "lphippen22",
         "img": "https://robohash.org/fugiatesseconsectetur.png?size=200x200&set=set1",
         "price": 100,
@@ -1200,7 +1200,7 @@ let data = [
         "discountlimit": 41
     },
     {
-        "_id": 76,
+        //_id:: 76,
         "name": "fconneely23",
         "img": "https://robohash.org/omnisrepudiandaeab.png?size=200x200&set=set1",
         "price": 67,
@@ -1216,7 +1216,7 @@ let data = [
         "discountlimit": 22
     },
     {
-        "_id": 77,
+        //_id:: 77,
         "name": "mstapells24",
         "img": "https://robohash.org/idnostrumdeleniti.png?size=200x200&set=set1",
         "price": 1,
@@ -1232,7 +1232,7 @@ let data = [
         "discountlimit": 11
     },
     {
-        "_id": 78,
+        //_id:: 78,
         "name": "bbeere25",
         "img": "https://robohash.org/nobisestincidunt.png?size=200x200&set=set1",
         "price": 68,
@@ -1248,7 +1248,7 @@ let data = [
         "discountlimit": 30
     },
     {
-        "_id": 79,
+        //_id:: 79,
         "name": "aoliddy26",
         "img": "https://robohash.org/nobisevenietalias.png?size=200x200&set=set1",
         "price": 27,
@@ -1264,7 +1264,7 @@ let data = [
         "discountlimit": 17
     },
     {
-        "_id": 80,
+        //_id:: 80,
         "name": "leccersley27",
         "img": "https://robohash.org/quiaarchitectominima.png?size=200x200&set=set1",
         "price": 32,
@@ -1280,7 +1280,7 @@ let data = [
         "discountlimit": 32
     },
     {
-        "_id": 81,
+        //_id:: 81,
         "name": "dswatridge28",
         "img": "https://robohash.org/quovelitquos.png?size=200x200&set=set1",
         "price": 66,
@@ -1296,7 +1296,7 @@ let data = [
         "discountlimit": 21
     },
     {
-        "_id": 82,
+        //_id:: 82,
         "name": "ldymott29",
         "img": "https://robohash.org/quiaprovidentnam.png?size=200x200&set=set1",
         "price": 87,
@@ -1312,7 +1312,7 @@ let data = [
         "discountlimit": 15
     },
     {
-        "_id": 83,
+        //_id:: 83,
         "name": "kmclucas2a",
         "img": "https://robohash.org/laboriosamestconsequatur.png?size=200x200&set=set1",
         "price": 67,
@@ -1328,7 +1328,7 @@ let data = [
         "discountlimit": 47
     },
     {
-        "_id": 84,
+        //_id:: 84,
         "name": "sbenkin2b",
         "img": "https://robohash.org/etnihilfacilis.png?size=200x200&set=set1",
         "price": 20,
@@ -1344,7 +1344,7 @@ let data = [
         "discountlimit": 49
     },
     {
-        "_id": 85,
+        //_id:: 85,
         "name": "nbursnoll2c",
         "img": "https://robohash.org/adipiscivoluptatemnihil.png?size=200x200&set=set1",
         "price": 100,
@@ -1360,7 +1360,7 @@ let data = [
         "discountlimit": 34
     },
     {
-        "_id": 86,
+        //_id:: 86,
         "name": "rharsnep2d",
         "img": "https://robohash.org/delectusperspiciatislabore.png?size=200x200&set=set1",
         "price": 1,
@@ -1376,7 +1376,7 @@ let data = [
         "discountlimit": 12
     },
     {
-        "_id": 87,
+        //_id:: 87,
         "name": "jseegar2e",
         "img": "https://robohash.org/dolorematqueoptio.png?size=200x200&set=set1",
         "price": 31,
@@ -1392,7 +1392,7 @@ let data = [
         "discountlimit": 20
     },
     {
-        "_id": 88,
+        //_id:: 88,
         "name": "vgoodlife2f",
         "img": "https://robohash.org/reiciendislaborumcorrupti.png?size=200x200&set=set1",
         "price": 47,
@@ -1408,7 +1408,7 @@ let data = [
         "discountlimit": 36
     },
     {
-        "_id": 89,
+        //_id:: 89,
         "name": "heffemy2g",
         "img": "https://robohash.org/nobisomnisincidunt.png?size=200x200&set=set1",
         "price": 74,
@@ -1424,7 +1424,7 @@ let data = [
         "discountlimit": 14
     },
     {
-        "_id": 90,
+        //_id:: 90,
         "name": "amocker2h",
         "img": "https://robohash.org/suntharumvelit.png?size=200x200&set=set1",
         "price": 43,
@@ -1440,7 +1440,7 @@ let data = [
         "discountlimit": 14
     },
     {
-        "_id": 91,
+        //_id:: 91,
         "name": "tloy2i",
         "img": "https://robohash.org/consequaturetaperiam.png?size=200x200&set=set1",
         "price": 42,
@@ -1456,7 +1456,7 @@ let data = [
         "discountlimit": 37
     },
     {
-        "_id": 92,
+        //_id:: 92,
         "name": "aivashechkin2j",
         "img": "https://robohash.org/laborumeosoptio.png?size=200x200&set=set1",
         "price": 19,
@@ -1472,7 +1472,7 @@ let data = [
         "discountlimit": 36
     },
     {
-        "_id": 93,
+        //_id:: 93,
         "name": "rfalvey2k",
         "img": "https://robohash.org/sintdoloribusvoluptate.png?size=200x200&set=set1",
         "price": 78,
@@ -1488,7 +1488,7 @@ let data = [
         "discountlimit": 42
     },
     {
-        "_id": 94,
+        //_id:: 94,
         "name": "erowney2l",
         "img": "https://robohash.org/consecteturrerumad.png?size=200x200&set=set1",
         "price": 6,
@@ -1504,7 +1504,7 @@ let data = [
         "discountlimit": 28
     },
     {
-        "_id": 95,
+        //_id:: 95,
         "name": "elamburne2m",
         "img": "https://robohash.org/laudantiumitaqueet.png?size=200x200&set=set1",
         "price": 13,
@@ -1520,7 +1520,7 @@ let data = [
         "discountlimit": 49
     },
     {
-        "_id": 96,
+        //_id:: 96,
         "name": "ggiraldez2n",
         "img": "https://robohash.org/facilisminusea.png?size=200x200&set=set1",
         "price": 34,
@@ -1536,7 +1536,7 @@ let data = [
         "discountlimit": 29
     },
     {
-        "_id": 97,
+        //_id:: 97,
         "name": "agossage2o",
         "img": "https://robohash.org/quaeratinciduntdolor.png?size=200x200&set=set1",
         "price": 84,
@@ -1552,7 +1552,7 @@ let data = [
         "discountlimit": 41
     },
     {
-        "_id": 98,
+        //_id:: 98,
         "name": "glindblad2p",
         "img": "https://robohash.org/quiacumquemolestiae.png?size=200x200&set=set1",
         "price": 19,
@@ -1568,7 +1568,7 @@ let data = [
         "discountlimit": 33
     },
     {
-        "_id": 99,
+        //_id:: 99,
         "name": "gcroxon2q",
         "img": "https://robohash.org/utetquae.png?size=200x200&set=set1",
         "price": 83,
@@ -1584,7 +1584,7 @@ let data = [
         "discountlimit": 28
     },
     {
-        "_id": 100,
+        //_id:: 100,
         "name": "ccranton2r",
         "img": "https://robohash.org/eiusdoloremat.png?size=200x200&set=set1",
         "price": 32,
