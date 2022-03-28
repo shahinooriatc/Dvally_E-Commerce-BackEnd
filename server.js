@@ -5,10 +5,19 @@ import "dotenv/config";
 import mongoose from "mongoose";
 import productRoutes from "./routes/productRoutes.js";
 import rootRoutes from "./routes/rootRoutes.js";
+import userRoutes from "./routes/userRoutes.js";
 
 const mongoUrl = process.env.mongo_url;
 const app = express();
 app.use(express.json());
+
+import bodyParser from "body-parser";
+
+// parse application/x-www-form-urlencoded
+app.use(express.urlencoded({ extended: false }));
+
+// parse application/json
+// app.use(bodyParser.json());
 
 mongoose
   .connect(mongoUrl)
@@ -19,7 +28,6 @@ mongoose
     console.log("mongodb connect error", err);
   });
 
-
 app.use("/products", productRoutes);
 //--------Get Data from Backend----------//
 // app.get('/pros', async (req, res) => {
@@ -29,6 +37,7 @@ app.use("/products", productRoutes);
 // })
 
 app.use("/api/product", rootRoutes);
+app.use("/api/user", userRoutes);
 //--------Post from Frontend to Backend--------//
 // app.post("/pros", (req, res) => {
 //   let profile = new product({
@@ -46,7 +55,6 @@ app.use("/api/product", rootRoutes);
 // app.get("/products", (req, res) => {
 //   res.send(data);
 // });
-
 
 //--------Get Single Product--------from Backend--------//
 // app.get("/products/:slug", (req, res) => {

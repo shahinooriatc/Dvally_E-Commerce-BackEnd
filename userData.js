@@ -9,7 +9,13 @@ let userData = [
   {
     name: "Chon",
     email: "Chon@example.com",
-    password: bcrypt.hashSync("pas12345"),
+    password: bcrypt.hashSync("12345"),
+    isAdmin: false,
+  },
+  {
+    name: "khan",
+    email: "khan@example.com",
+    password: bcrypt.hashSync("12345"),
     isAdmin: false,
   },
 ]
