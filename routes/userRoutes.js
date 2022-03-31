@@ -1,5 +1,5 @@
 import express from "express";
-import userModel from "../models/userModel.js";
+import User from "../models/userModel.js";
 import bcrypt from "bcryptjs";
 import { generateToken } from "../utils.js";
 
@@ -13,9 +13,9 @@ const userRoutes = express.Router();
 
 //--------Get Single User--------from Backend--------//
 userRoutes.post("/signin", async (req, res) => {
-  let user = await userModel.findOne({ email: req.body.email });
+  let user = await User.findOne({ email: req.body.email });
   if (user) {
-    if (bcrypt.compare(req.body.password, user.password)) {
+    if (bcrypt.compareSync(req.body.password, user.password)) {
       res.send({
         _id: user._id,
         name: user.name,
@@ -23,10 +23,10 @@ userRoutes.post("/signin", async (req, res) => {
         isAdmin: user.isAdmin,
         token: generateToken(user),
       });
-      return;
+      return
     }
   }
-  res.status(401).send({ msg: "User Email or Password is not  valid!" });
+  res.status(401).send({ msg: "User Email  is not  valid!" });
 });
 
 export default userRoutes;

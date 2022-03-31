@@ -11,33 +11,33 @@ const mongoUrl = process.env.mongo_url;
 const app = express();
 app.use(express.json());
 
-import bodyParser from "body-parser";
-
-// parse application/x-www-form-urlencoded
 app.use(express.urlencoded({ extended: false }));
 
-// parse application/json
-// app.use(bodyParser.json());
-
-mongoose
-  .connect(mongoUrl)
-  .then(() => {
+mongoose.connect(mongoUrl).then(() => {
     console.log("mongodb connect successfully Done");
   })
   .catch((err) => {
     console.log("mongodb connect error", err);
   });
 
-app.use("/products", productRoutes);
 //--------Get Data from Backend----------//
+app.use("/products", productRoutes);
 // app.get('/pros', async (req, res) => {
 //   let MongoDbProduct = await product.find()
 //   console.log(MongoDbProduct);
 //   res.send(MongoDbProduct)
 // })
 
-app.use("/api/product", rootRoutes);
+// Post All Data from frontend to Backend--------//
+app.use("/api", rootRoutes);
+
+// Post All User from frontend to Backend--------//
+app.use("/api", rootRoutes);
+
+// Get individual user from Backend--------
 app.use("/api/user", userRoutes);
+
+
 //--------Post from Frontend to Backend--------//
 // app.post("/pros", (req, res) => {
 //   let profile = new product({

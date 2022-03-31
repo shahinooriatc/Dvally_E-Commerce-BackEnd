@@ -3,10 +3,10 @@ const { Schema } = mongoose;
 
 const UserModel = new Schema(
   {
-    name: { type: String, require: true },
-    email: { type: String, require: true, unique: true },
-    password: { type: String, require: true },
-    isAdmin: { type: Boolean, require: true, default: false},
+    name: { type: String, required: true },
+    email: { type: String, required: true, unique: true },
+    password: { type: String, required: true },
+    isAdmin: { type: Boolean, required: true, default: false},
   },
   {
     timestamp: true,
@@ -16,3 +16,5 @@ const UserModel = new Schema(
 const User = mongoose.model("User", UserModel);
 
 export default User;
+
+
