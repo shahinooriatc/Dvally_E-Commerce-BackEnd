@@ -29,4 +29,22 @@ userRoutes.post("/signin", async (req, res) => {
   res.status(401).send({ msg: "User Email  is not  valid!" });
 });
 
+// Post Registered User Data frontend to Backend--------//
+userRoutes.post('/registration',async (req, res)=>{
+  let registeredUser = new User({
+    name:req.body.name,
+    email:req.body.email,
+    password:bcrypt.hashSync(req.body.password)
+  })
+  const user = await registeredUser.save()
+  res.send({ 
+    _id: user._id,
+    name: user.name,
+    email: user.email,
+    isAdmin: user.isAdmin,
+    token: generateToken(user)
+  })
+})
+ 
+
 export default userRoutes;

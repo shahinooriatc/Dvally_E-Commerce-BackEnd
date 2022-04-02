@@ -37,6 +37,9 @@ app.use("/api", rootRoutes);
 // Get individual user from Backend--------
 app.use("/api/user", userRoutes);
 
+// Post individual registeredUser user from Frontend to Backend--------
+app.use("/api/user", userRoutes);
+
 
 //--------Post from Frontend to Backend--------//
 // app.post("/pros", (req, res) => {
