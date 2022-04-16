@@ -3,13 +3,13 @@ import Product from "../models/productModel.js";
 
 const productRoutes = express.Router();
 
-//--------Get from Server to Backend--------//
+//----Get from MongoDbProduct Server to Backend--------//
 productRoutes.get("/", async (req, res) => {
   let MongoDbProduct = await Product.find();
   res.send(MongoDbProduct);
 });
 
-//--------Get Single Product--------from Backend--------//
+//--Get Single Product---from MongoDbProduct----Server--//
 productRoutes.get("/:slug", async (req, res) => {
   let product = await Product.findOne({ slug: req.params.slug });
   if (product) {

@@ -13,7 +13,7 @@ const userRoutes = express.Router();
 
 //--------Get Single User--------from Backend--------//
 userRoutes.post("/signin", async (req, res) => {
-  let user = await User.findOne({ email: req.body.email });
+  let user = await User.findOne({ email: req.body.email })
   if (user) {
     if (bcrypt.compareSync(req.body.password, user.password)) {
       res.send({
