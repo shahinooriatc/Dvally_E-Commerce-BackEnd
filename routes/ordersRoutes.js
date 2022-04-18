@@ -22,5 +22,16 @@ ordersRoutes.post("/", isAuth, async (req, res) => {
 });
 
 
+//----Get Order from -Backend--- to Frontend--------//
+ordersRoutes.get('/:id',isAuth,async (req,res)=>{
+  const order = await Orders.findById(req.params.id)
+  if(order){
+      res.send(order)
+  }else{
+      res.status(404).send({msg:"Order Not Found"})
+  }
+})
+
+
 
 export default ordersRoutes;

@@ -1,7 +1,7 @@
 import jwt from "jsonwebtoken";
 
 export const generateToken = (user) => {
-  return jwt.sign({ user }, process.env.privateKey, { expiresIn: "1d" });
+  return jwt.sign({ user }, process.env.privateKey, { expiresIn: "30d" });
 };
 
 export const isAuth = (req, res, next) => {
