@@ -1,5 +1,4 @@
 import data from "./E-commerceAPI.js";
-import Product from "./models/productModel.js";
 import discount from "./discount.js";
 import express from "express";
 import "dotenv/config";
@@ -7,7 +6,7 @@ import mongoose from "mongoose";
 import productRoutes from "./routes/productRoutes.js";
 import rootRoutes from "./routes/rootRoutes.js";
 import userRoutes from "./routes/userRoutes.js";
-
+import ordersRoutes from "./routes/ordersRoutes.js";
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
@@ -27,6 +26,9 @@ app.use("/api", rootRoutes);
 
 // Post All ProductData frontend to Backend--------//
 app.use("/api", rootRoutes);
+
+// Post All Orders Data frontend to Backend--------//
+app.use("/api/orders", ordersRoutes);
 
 // Post individual registeredUser user from Frontend to Backend--------
 app.use("/api/user", userRoutes);
