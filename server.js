@@ -77,6 +77,10 @@ app.get("/discount", (req, res) => {
   res.send(discount);
 });
 
+app.get('/api/keys/paypal',(req, res) => {
+  res.send(process.env.PAYPAL_CLIENT || 'sb')
+})
+
 //Post Listening  Section............
 let port = process.env.PORT || 8000;
 app.listen(port, () => {

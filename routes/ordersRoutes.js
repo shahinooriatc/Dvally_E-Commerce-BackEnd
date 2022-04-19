@@ -33,5 +33,27 @@ ordersRoutes.get('/:id',isAuth,async (req,res)=>{
 })
 
 
+//----Payment Price for  Order from -Backend--- to Frontend--------//
+ordersRoutes.put('/:id/pay',isAuth,async (req,res)=>{
+  const order = await Orders.findById(req.params.id)
+  
+      if(order){
+        order.isPaid = true
+        order.paidAt = Date.now()
+        order.paymentResult={
+          id:req.body.id,
+          update_time: req.body.update_time,
+          email: req.body.email_address,
+        }
+        const updataOrder = await order.save()
+        res.send({message:'Order Paid SuccessFully',updataOrder})
+      }else{
+        res.status(404).send({message:'Order Payment Failed'})
+      }
+
+  
+})
+
+
 
 export default ordersRoutes;

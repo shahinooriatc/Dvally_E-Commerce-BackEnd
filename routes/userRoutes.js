@@ -11,7 +11,7 @@ const userRoutes = express.Router();
 //   res.send(MongoDbUser);
 // });
 
-//--------Get Single User--------from Backend--------//
+//--------Get Single User Data To Login---from Backend--------//
 userRoutes.post("/signin", async (req, res) => {
   let user = await User.findOne({ email: req.body.email })
   if (user) {
